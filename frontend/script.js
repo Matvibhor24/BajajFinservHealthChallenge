@@ -23,7 +23,7 @@ function submitData() {
         return response.json();
     })
     .then(data => {
-        console.log('Response data:', data); // Debugging line
+        console.log('Response data:', data);
         filterResults(data);
     })
     .catch(error => {
